@@ -30,7 +30,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        shadowColor: ColorPallete.fontsColor.withOpacity(0.01),
+        shadowColor: ColorPalette.fontsColor.withOpacity(0.01),
         title: const Text(
           "Overview",
           style: TextStyle(
@@ -38,7 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
               fontFamily: "ABCGinto",
               fontWeight: FontWeight.w500),
         ),
-        backgroundColor: ColorPallete.whiteColor,
+        backgroundColor: ColorPalette.whiteColor,
         actions: notificationsAndAvatar(),
       ),
       body: SafeArea(
@@ -62,7 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
           Navigator.push(
               context, CustomPageRoute(page: const ManualAlertScreen()));
         },
-        backgroundColor: ColorPallete.secondaryColor,
+        backgroundColor: ColorPalette.secondaryColor,
         child: const Icon(
           CupertinoIcons.add,
           color: Colors.white,
@@ -78,12 +78,12 @@ class _HomeScreenState extends State<HomeScreen> {
         BottomBarItem(
             icon: const Icon(Icons.dashboard),
             selectedIcon: const Icon(Icons.dashboard),
-            selectedColor: ColorPallete.secondaryColor,
+            selectedColor: ColorPalette.secondaryColor,
             title: const Text('Home')),
         BottomBarItem(
             icon: const Icon(Icons.search),
             selectedIcon: const Icon(Icons.search_outlined),
-            selectedColor: ColorPallete.secondaryColor,
+            selectedColor: ColorPalette.secondaryColor,
             title: const Text('Search')),
         BottomBarItem(
             icon: const Icon(
@@ -92,7 +92,7 @@ class _HomeScreenState extends State<HomeScreen> {
             selectedIcon: const Icon(
               Icons.style,
             ),
-            selectedColor: ColorPallete.secondaryColor,
+            selectedColor: ColorPalette.secondaryColor,
             title: const Text('Observations')),
         BottomBarItem(
             icon: const Icon(
@@ -101,7 +101,7 @@ class _HomeScreenState extends State<HomeScreen> {
             selectedIcon: const Icon(
               Icons.image,
             ),
-            selectedColor: ColorPallete.secondaryColor,
+            selectedColor: ColorPalette.secondaryColor,
             title: const Text('Gallery')),
       ],
       hasNotch: true,

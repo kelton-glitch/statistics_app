@@ -36,8 +36,8 @@ class _ManualAlertScreenState extends State<ManualAlertScreen> {
           },
           icon: Image.asset("assets/icons/arrow_back.png"),
         ),
-        backgroundColor: ColorPallete.alertAppBar,
-        shadowColor: ColorPallete.fontsColor.withOpacity(0.01),
+        backgroundColor: ColorPalette.alertAppBar,
+        shadowColor: ColorPalette.fontsColor.withOpacity(0.01),
         title: const Text(
           "Manual Alert",
           style: TextStyle(color: Colors.black),

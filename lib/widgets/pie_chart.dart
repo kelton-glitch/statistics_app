@@ -53,7 +53,7 @@ class PieChart2State extends State {
                             'Today',
                             style: TextStyle(
                               fontFamily: "ABCGinto",
-                              color: ColorPallete.fontsColor,
+                              color: ColorPalette.fontsColor,
                               fontSize: 15,
                               fontWeight: FontWeight.w200,
                             ),
@@ -106,7 +106,7 @@ class PieChart2State extends State {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: const <Widget>[
                     Indicator(
-                      color: ColorPallete.pendingColor,
+                      color: ColorPalette.pendingColor,
                       text: 'Pending',
                       isSquare: true,
                     ),
@@ -114,7 +114,7 @@ class PieChart2State extends State {
                       height: 4,
                     ),
                     Indicator(
-                      color: ColorPallete.progressColor,
+                      color: ColorPalette.progressColor,
                       text: 'Progress',
                       isSquare: true,
                     ),
@@ -122,7 +122,7 @@ class PieChart2State extends State {
                       height: 4,
                     ),
                     Indicator(
-                      color: ColorPallete.resolvedColor,
+                      color: ColorPalette.resolvedColor,
                       text: 'Resolved',
                       isSquare: true,
                     ),
@@ -130,7 +130,7 @@ class PieChart2State extends State {
                       height: 4,
                     ),
                     Indicator(
-                      color: ColorPallete.closeColor,
+                      color: ColorPalette.closeColor,
                       text: 'Closed',
                       isSquare: true,
                     ),
@@ -168,7 +168,7 @@ class PieChart2State extends State {
       switch (i) {
         case 0:
           return PieChartSectionData(
-            color: ColorPallete.pendingColor,
+            color: ColorPalette.pendingColor,
             value: 40,
             title: '40',
             radius: radius,
@@ -180,7 +180,7 @@ class PieChart2State extends State {
           );
         case 1:
           return PieChartSectionData(
-            color: ColorPallete.resolvedColor,
+            color: ColorPalette.resolvedColor,
             value: 30,
             title: '30',
             radius: radius,
@@ -192,7 +192,7 @@ class PieChart2State extends State {
           );
         case 2:
           return PieChartSectionData(
-            color: ColorPallete.closeColor,
+            color: ColorPalette.closeColor,
             value: 15,
             title: '15',
             radius: radius,
@@ -204,7 +204,7 @@ class PieChart2State extends State {
           );
         case 3:
           return PieChartSectionData(
-            color: ColorPallete.progressColor,
+            color: ColorPalette.progressColor,
             value: 15,
             title: '15',
             radius: radius,

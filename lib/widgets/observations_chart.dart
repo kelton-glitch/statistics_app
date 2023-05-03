@@ -10,12 +10,12 @@ class ObservationChart extends StatefulWidget {
   ObservationChart({super.key});
 
   List<Color> get availableColors => const <Color>[
-        ColorPallete.fontsColor,
+        ColorPalette.fontsColor,
       ];
 
-  final Color barBackgroundColor = ColorPallete.primaryColor.withOpacity(0.3);
-  final Color barColor = ColorPallete.chartsColor;
-  final Color touchedBarColor = ColorPallete.chartsColor;
+  final Color barBackgroundColor = ColorPalette.primaryColor.withOpacity(0.3);
+  final Color barColor = ColorPalette.chartsColor;
+  final Color touchedBarColor = ColorPalette.chartsColor;
 
   @override
   State<StatefulWidget> createState() => ObservationChartState();
@@ -66,7 +66,7 @@ class ObservationChartState extends State<ObservationChart> {
                     const Text(
                       'Statistics',
                       style: TextStyle(
-                        color: ColorPallete.fontsColor,
+                        color: ColorPalette.fontsColor,
                         fontSize: 15,
                         fontWeight: FontWeight.w200,
                       ),
@@ -451,7 +451,7 @@ class ObservationChartState extends State<ObservationChart> {
                       },
                       child: const Icon(
                         Icons.close,
-                        color: ColorPallete.fontsColor,
+                        color: ColorPalette.fontsColor,
                       )),
                   const Text(
                     'Filter By',

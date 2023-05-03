@@ -62,8 +62,8 @@ class _CustomDropdownButtonFormFieldState
                   IconButton(
                     icon: Icon(widget.iconData),
                     color: isItTapped
-                        ? ColorPallete.progressColor
-                        : ColorPallete.alertAppBar,
+                        ? ColorPalette.progressColor
+                        : ColorPalette.alertAppBar,
                     onPressed: () {
                       setState(() {
                         isItTapped = !isItTapped;

@@ -25,7 +25,7 @@ class TitleAndInfoIconOptional extends StatelessWidget {
         ),
          Icon(
          icon,
-          color: ColorPallete.alertAppBar,
+          color: ColorPalette.alertAppBar,
         )
       ],
     );

@@ -5,7 +5,7 @@ List<Widget> notificationsAndAvatar() {
   return const [
     Icon(
       Icons.notifications,
-      color: ColorPallete.fontsColor,
+      color: ColorPalette.fontsColor,
       size: 30,
     ),
     SizedBox(
